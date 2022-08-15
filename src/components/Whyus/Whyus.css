@@ -1,0 +1,25 @@
+.why-us {
+  padding: 2rem;
+  width: 50%;
+  background-color: hsla(179, 62%, 43%, 0.78);
+  border-bottom-right-radius: 0.5rem;
+}
+.why-us-title {
+  margin-bottom: 1.5rem;
+  color: hsl(204, 43%, 93%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  color: hsl(204, 43%, 93%);
+}
+
+@media screen and (max-width: 900px) {
+  .why-us {
+    width: 100%;
+    border-radius: 0;
+  }
+}

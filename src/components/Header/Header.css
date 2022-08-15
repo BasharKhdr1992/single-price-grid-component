@@ -1,0 +1,16 @@
+.header {
+  padding: 1.5rem;
+}
+.primary-header {
+  margin-bottom: 2rem;
+  color: hsl(179, 62%, 43%);
+}
+
+.secondary-header {
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 1rem;
+}
+
+.header-para {
+  color: hsl(218, 22%, 67%);
+}

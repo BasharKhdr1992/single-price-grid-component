@@ -1,0 +1,41 @@
+.subscription {
+  width: 50%;
+  background-color: hsl(179, 62%, 43%);
+  padding: 2rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.sub-title {
+  margin-bottom: 1.5rem;
+  color: hsl(204, 43%, 93%);
+}
+
+.price-section {
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  color: hsl(204, 43%, 93%);
+  font-size: 2rem;
+  margin-right: 0.5rem;
+}
+
+.per,
+.price-desc {
+  font-size: 1rem;
+}
+
+.per {
+  color: hsl(218, 22%, 67%);
+}
+
+.price-desc {
+  color: hsl(204, 43%, 93%);
+}
+
+@media screen and (max-width: 900px) {
+  .subscription {
+    width: 100%;
+    border-radius: 0;
+  }
+}
